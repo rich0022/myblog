@@ -34,10 +34,11 @@ min_version = "0.123.0"
 name = "Jimmy"
 homepage = "https://jimmycai.com"
 
-[params.comment]
+[params.comments]
+enabled = true
 provider = "giscus"
 
-[params.comment.giscus]
+[params.comments.giscus]
 repo = "rich0022/myblog"
 repoId = "R_kgDOO2aRnw"
 category = "Blog Comments"
