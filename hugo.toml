@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'stack'
+theme = 'hugo-theme-stack'
 
 [pagination]
   pagerSize = 10
@@ -33,8 +33,6 @@ min_version = "0.123.0"
 [author]
 name = "Jimmy"
 homepage = "https://jimmycai.com"
-
-
 
 [params.comment]
 provider = "giscus"
