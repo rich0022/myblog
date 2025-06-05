@@ -25,5 +25,24 @@ features = [
 min_version = "0.123.0"
 
 [author]
-name = "Jimmy Cai"
+name = "Jimmy"
 homepage = "https://jimmycai.com"
+
+
+
+[params.comment]
+provider = "giscus"
+
+[params.comment.giscus]
+repo = "rich0022/myblog"
+repoId = "R_kgDOO2aRnw"
+category = "Blog Comments"
+categoryId = "DIC_kwDOO2aRn84CrEMy"
+mapping = "pathname"
+strict = false
+reactionsEnabled = "1"
+emitMetadata = "1"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "zh-CN"
+loading = "lazy"
