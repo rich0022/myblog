@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'stack'
 
+[pagination]
+  pagerSize = 10
+
+[params]
+  mainSections = ["posts"]
+
 name = "Stack"
 license = "GPL-3.0-only"
 licenselink = "https://github.com/CaiJimmy/hugo-theme-stack/blob/master/LICENSE"
